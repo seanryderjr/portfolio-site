@@ -4,17 +4,17 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: rgb(113,114,192);
-    background: linear-gradient(90deg, rgba(113,114,192,1) 0%, rgba(4,11,44,1) 21%);
+    background: rgb(113, 114, 192);
+    background: linear-gradient(90deg, rgba(113, 114, 192, 1) 0%, rgba(4, 11, 44, 1) 21%);
 }
 
-    
+
 
 
 .top-wrapper {
-  background-color: #7172c0;
+    background-color: #7172c0;
     height: 300px;
-    width: 100%;   
+    width: 100%;
 }
 
 .me {
@@ -24,9 +24,9 @@ body {
 }
 
 .header {
-  background-color: #040b2c;
+    background-color: #040b2c;
     color: #fff;
-    
+
     text-align: left;
     width: 180px;
     height: 100vh;
@@ -36,7 +36,7 @@ body {
     left: 0;
     z-index: 1;
     overflow-x: hidden;
-    
+
 
 }
 
@@ -54,9 +54,9 @@ ul {
     list-style-type: none;
     margin-top: 100px;
     padding: 0;
-    
-    
-   
+
+
+
 }
 
 li a {
@@ -110,7 +110,7 @@ li a:hover {
 }
 
 .jumbotron p {
-    
+
     font-size: 1.5em;
     margin: 0;
 }
@@ -168,7 +168,7 @@ li a:hover {
     align-items: center;
     text-align: center;
 
-    
+
 
 }
 
@@ -217,7 +217,3 @@ li a:hover {
 fieldset {
     border: none;
 }
-
-
-
-

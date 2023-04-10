@@ -21,3 +21,17 @@ document.querySelector('a[href="#contact"]').addEventListener('click', function(
   contact.scrollIntoView({ behavior: 'smooth' }); // scroll to the About section
 });
 
+
+
+const form = document.querySelector(".contact-form");
+
+form.addEventListener("submit", (event) => {
+   event.preventDefault();
+
+   emailjs.sendForm("service_t95xo0s", "template_ggnlq1i", ".contact-form")
+      .then(() => {
+         alert("Your message was sent successfully!");
+      }, (error) => {
+         alert("There was an error sending your message:", error);
+      });
+});
