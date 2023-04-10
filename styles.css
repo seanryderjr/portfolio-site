@@ -70,6 +70,7 @@ li a {
 
 li a:hover {
     background-color: #7172c0;
+    font-size: 30px;
 }
 
 .github {
@@ -220,67 +221,3 @@ fieldset {
 
 
 
-@media only screen and (max-width: 768px) {
-
-  .header {
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-  }
-
-  .header h1 {
-    font-size: 24px;
-  }
-
-  .header p {
-    font-size: 16px;
-  }
-
-  ul {
-    margin-top: 150px;
-  }
-
-  li a {
-    font-size: 16px;
-  }
-
-  .me {
-    width: 80%;
-    margin-top: 30px;
-  }
-
-  .jumbotron {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    height: auto;
-  }
-
-  .jumbotron h1 {
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
-
-  .jumbotron p {
-    font-size: 1em;
-  }
-
-  .button {
-    margin-top: 10px;
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-  }
-
-  .about {
-    font-size: 2em;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    height: auto;
-  }
-
-}
