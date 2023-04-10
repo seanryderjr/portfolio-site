@@ -5,17 +5,16 @@
 body {
     font-family: 'Lato', sans-serif;
     background: rgb(113,114,192);
-background: linear-gradient(90deg, rgba(113,114,192,1) 0%, rgba(4,11,44,1) 21%);
-    
+    background: linear-gradient(90deg, rgba(113,114,192,1) 0%, rgba(4,11,44,1) 21%);
 }
 
-.top-wrapper {
-    background-color: #7172c0;
-    height: 300px;
+    
 
-    
-    
-    
+
+.top-wrapper {
+  background-color: #7172c0;
+    height: 300px;
+    width: 100%;   
 }
 
 .me {
@@ -25,7 +24,7 @@ background: linear-gradient(90deg, rgba(113,114,192,1) 0%, rgba(4,11,44,1) 21%);
 }
 
 .header {
-    background-color: #040b2c;
+  background-color: #040b2c;
     color: #fff;
     
     text-align: left;
@@ -100,7 +99,7 @@ li a:hover {
     margin-bottom: 50px;
     border-radius: 10px;
     opacity: 0.7;
-    height: 60vh;
+    height: 70vh;
 }
 
 .jumbotron h1 {
@@ -152,73 +151,74 @@ li a:hover {
     height: 70vh;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* Media queries for screens smaller than 768px */
-@media only screen and (max-width: 768px) {
 
-  .header {
-    width: 100%;
-    height: auto;
-    position: relative;
+
+.contact {
+    font-size: 2.5rem;
+    margin-top: 150px;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-  }
 
-  .header h1 {
-    font-size: 24px;
-  }
-
-  .header p {
-    font-size: 16px;
-  }
-
-  ul {
-    margin-top: 50px;
-  }
-
-  li a {
-    font-size: 16px;
-  }
-
-  .me {
-    width: 80%;
-    margin-top: 30px;
-  }
-
-  .jumbotron {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    height: auto;
-  }
-
-  .jumbotron h1 {
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
-
-  .jumbotron p {
-    font-size: 1em;
-  }
-
-  .button {
-    margin-top: 10px;
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-  }
-
-  .about {
-    font-size: 2em;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    height: auto;
-  }
+    
 
 }
+
+.contact-form {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 70vh;
+    background-color: #040b2c;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+.contact-form input {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+.contact-form textarea {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+fieldset {
+    border: none;
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
 
