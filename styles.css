@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: rgb(113,114,192);
+background: linear-gradient(90deg, rgba(113,114,192,1) 0%, rgba(4,11,44,1) 21%);
+    
+}
+
+.top-wrapper {
+    background-color: #7172c0;
+    height: 300px;
+
+    
+    
+    
+}
+
+.me {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #040b2c;
+    color: #fff;
+    
+    text-align: left;
+    width: 180px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    
+
+}
+
+.header h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 100px;
+    padding: 0;
+    
+    
+   
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #7172c0;
+}
+
+.github {
+    margin-top: 70px;
+    height: 20%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.linkedin {
+    margin-top: 70px;
+    height: 20%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    opacity: 0.7;
+    height: 60vh;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.button {
+    background-color: #7172c0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+
+}
+
+.button:hover {
+    background-color: #040b2c;
+    cursor: pointer;
+}
+
+.scroll {
+    opacity: .4;
+    margin-top: 100px;
+}
+
+.about {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    opacity: 0.7;
+    height: 70vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Media queries for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  ul {
+    margin-top: 50px;
+  }
+
+  li a {
+    font-size: 16px;
+  }
+
+  .me {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .jumbotron {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .about {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  ul {
+    margin-top: 150px;
+  }
+
+  li a {
+    font-size: 16px;
+  }
+
+  .me {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .jumbotron {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .about {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+}
