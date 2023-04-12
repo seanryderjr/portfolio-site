@@ -384,8 +384,25 @@ fieldset {
     }
     }
   
+    .popout {
+      position: fixed;
+      top: 50%; /* set the top to 50% */
+      left: 50%; /* set the left to 50% */
+      transform: translate(-50%, -50%); /* center the container */
+      max-width: 80%; /* set a maximum width for the container */
+      max-height: 80%; /* set a maximum height for the container */
+     /* add scrolling if content overflows */
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
 
- 
-  
- 
-  
+   .popout-image {
+      width: 70%;
+      height: auto;
+      padding: 50px;
+    }
+
+    
