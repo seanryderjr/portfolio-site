@@ -21,6 +21,23 @@ document.querySelector('a[href="#contact"]').addEventListener('click', function(
   contact.scrollIntoView({ behavior: 'smooth' }); // scroll to the About section
 });
 
+  const contactButton = document.getElementById('contact-me-button');
+  
+  document.getElementById('contact-me-button').addEventListener('click', function(e) {
+    e.preventDefault(); // prevent default link behavior
+    contact.scrollIntoView({ behavior: 'smooth' }); 
+});
+
+
+
+const projects = document.querySelector('.projects');
+
+document.querySelector('a[href="#projects"]').addEventListener('click', function(e) {
+  e.preventDefault(); // prevent default link behavior
+  projects.scrollIntoView({ behavior: 'smooth' }); // scroll to the About section
+});
+
+
 
 
 const form = document.querySelector(".contact-form");

@@ -217,3 +217,175 @@ li a:hover {
 fieldset {
     border: none;
 }
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 200px;
+    background-color: #040b2c;
+   
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90vh;
+    
+}
+
+.projects > div {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+
+.projects-container h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.projects img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.projects-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 44.5%;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .me {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .header {
+      width: 100%;
+      height: auto;
+      position: relative;
+        
+    }
+    
+    .header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    .header p {
+      font-size: 16px;
+      margin: 0;
+    }
+    
+    ul {
+      margin-top: 70%;
+    }
+    
+    li a {
+      font-size: 28px;
+      padding: 8px 12px;
+      margin-top: 10px;
+    }
+    
+    .github, .linkedin {
+      margin-top: 30px;
+      height: 15%;
+      width: 15%;
+    }
+    
+    .jumbotron {
+      margin-top: 80px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: auto;
+    }
+    
+    .jumbotron h1 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+    
+    .jumbotron p {
+      font-size: 1.2em;
+    }
+    
+    .button {
+      font-size: 16px;
+      width: 150px;
+      height: 50px;
+    }
+    
+    .about {
+      font-size: 1.5rem;
+      margin-top: 80px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: auto;
+    }
+    
+    .contact {
+      font-size: 1.5rem;
+      margin-top: 80px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: auto;
+    }
+    
+    .contact-form {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: auto;
+      padding: 30px;
+    }
+    
+    .contact-form input {
+      width: 100%;
+      margin-top: 10px;
+    }
+    
+    .contact-form textarea {
+      width: 100%;
+      margin-top: 10px;
+    }
+    
+    .projects-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .projects > div {
+      width: 100%;
+      
+    }
+
+    .projects-container h1 {
+        transform: translateX(-30%);
+    }
+
+    .projects {
+        height: auto;
+    }
+    }
+  
+
+ 
+  
+ 
+  
