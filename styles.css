@@ -9,7 +9,10 @@ body {
 }
 
 
-
+a {
+    text-decoration: none;
+    
+}
 
 .top-wrapper {
     background-color: #7172c0;
@@ -21,6 +24,7 @@ body {
     border-radius: 50%;
     width: 50%;
     margin-top: 50px;
+    
 } .me:hover {
     cursor: pointer;
     transform: scale(1.1);
