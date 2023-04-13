@@ -24,7 +24,7 @@ a {
     border-radius: 50%;
     width: 50%;
     margin-top: 50px;
-    
+
 } .me:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -419,4 +419,11 @@ fieldset {
       padding: 50px;
     }
 
+.projects-container p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 40px;
+}
     
