@@ -56,18 +56,3 @@ form.addEventListener("submit", (event) => {
 var images = document.querySelectorAll(".pop-out-img");
 
 
-images.forEach(function(image) {
-  image.addEventListener("click", function() {
-    var popout = document.createElement("div");
-    popout.className = "popout";
-    var popoutImg = document.createElement("img");
-    popoutImg.src = this.src;
-    popoutImg.alt = this.alt;
-    popoutImg.className = "popout-image";
-    popout.appendChild(popoutImg);
-    document.body.appendChild(popout);
-    popout.onclick = function() {
-      this.remove();
-    }
-  });
-});
