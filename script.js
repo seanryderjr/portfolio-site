@@ -53,6 +53,6 @@ form.addEventListener("submit", (event) => {
       });
 });
 
-var images = document.querySelectorAll(".pop-out-img");
+
 
 
